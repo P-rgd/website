@@ -3,85 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify</title>
-    <link rel="stylesheet" href="ram.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="ramm.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+<style>
+    
+:root {
+  --main-bg-color: rgb(42, 106, 165);
+}
+footer{
+    height: 20vh;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 100vh 0;
+}nav ul li a:hover{
+    
+    color:blueviolet;
+    font-weight: bold;
+    
+
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li a
+{
+     color:aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav ul li {
+    list-style:none;
+    padding: 0 23px;   
+}
+.text-center{
+    text-align: center;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header{
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    border: 3px solid black;
+}
+nav{
+    display: flex;
+    height: 1opx;
+    padding: 0 23px;
+    
+}
+.search {
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+    
+}
+.container{
+    min-height: calc(100vh -10vh-20vh);
+    margin: 0%;
+}
+.btn{
+    padding:10px 25px;
+    border-radius: 5px;
+    background-color: var(--main-bg-color);
+    border:2 px solid white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.btn:hover{
+    font-weight: blod;
+    color: beige;
+    
+    
+}
+   
+.search input{
+    width: 600px;
+
+}
+.card{
+    background-color:white;
+    margin: 26px 0;
+    width: 10vw;
+}
+.card-item{
+    margin: 26px 0;
+}
+.text-aline{
+    text-align: center;
+}
+.card-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.my-1{
+    margin: 26px 0;
+
+}
+.cards{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+</style>
 <body>
-    <nav>
-        <ul>
-            <li class="brand"><img src="spotify.jpg" alt="Spotify"> Spotify</li>
-            <li>home</li>
-            <li>about</li>
-            
-        </ul>
-    </nav>
-    <div class="container">
-        <div class="songlist"></div>
-        <h1> best of India- No Copyright Sound</h1>
-        <div>
-        <div class="songitem">
-            <img src="to.jpg" alt="1" width="100px">
-            <span>Let me love you</span>
-            <span class="songlistplay"></span><span class="timestmap">05:34     <i class="fa-regular fa-1x fa-circle-play"></i>
-            </span>
-            
-        </div>
-        <div class="songitem">
-            <img src="to.jpg" alt="1" width="100px">
-            <span>Let me love you</span>
-            <span class="songlistplay"></span><span class="timestmap">05:34     <i class="fa-regular fa-1x fa-circle-play"></i>
-            </span>
-            
-        </div>
-        <div class="songitem">
-            <img src="to.jpg" alt="1" width="100px">
-            <span>Let me love you</span>
-            <span class="songlistplay"></span><span class="timestmap">05:34     <i class="fa-regular fa-1x fa-circle-play"></i>
-            </span>
-            
-        </div>
-        <div class="songitem">
-            <img src="to.jpg" alt="1" width="100px">
-            <span>Let me love you</span>
-            <span class="songlistplay"></span><span class="timestmap">05:34     <i class="fa-regular fa-1x fa-circle-play"></i>
-            </span>
-            
-        </div>
-        <div class="songitem">
-            <img src="to.jpg" alt="1" width="100px">
-            <span>Let me love you</span>
-            <span class="songlistplay"></span><span class="timestmap">05:34     <i class="fa-regular fa-1x fa-circle-play"></i>
-            </span>
-            
-        </div>
-        <div class="songitem">
-            <img src="to.jpg" alt="1" width="100px">
-            <span>Let me love you</span>
-            <span class="songlistplay"></span><span class="timestmap">05:34     <i class="fa-regular fa-1x fa-circle-play"></i>
-            </span>
-            
-        </div>
+    <header>
+<nav>
+    <div class="logo">
+        <img   src="th.jpg"alt="" height="50vh" >
     </div>
+    <ul>
+        <li><a href="home.html">home</a></li>
+        
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+        
+    </ul>
+    <div class="search">
+        <input type="text" name="" id  = "" placeholder="search here">
+        <button class="btn">search</button>
     </div>
-        <div class="songbanner"></div>
+</nav>
+    </header>
+    <main><div class="container">
+        <div class="slider">
+            <img  src="OIP.jpg" alt="" width="500vw"  >
+            </div>
+   
+  <div class="cards">
+<div class="card">
+    <h2> jion the cricket item</h2>
+    <div class="card-item">
+        <img src="OIP.jpg" alt="">
     </div>
-    <div class="bottom">
-    <input type="range" name="range" id="myProgress" min="0" max="100">
-<div class="icon">
-    
-    <i class="fa-solid fa-2x fa-forward-step"></i>
-    <i class="fa-regular fa-2x fa-circle-play"></i>
-    <i class="fa-solid fa-2x fa-backward-step"></i>
-    
+    <div class="iteam">
+        <p class="text-aline my-1" >minimum 20</p>
+        <p class="text-aline"> blue color</p>
+    </div>
 </div>
-<div class="songInf">
-    <img src="R.gif"  width= "42px" alt="" > let me love you
+
 </div>
+<div class="card">
+    <h2> jion the cricket item</h2>
+    <div class="card-item">
+        <img src="OIP.jpg" alt="">
     </div>
-    
-    <script src="script.js"></script>
-    
+    <div class="iteam">
+        <p class="text-aline my-1" >minimum 20</p>
+        <p class="text-aline"> blue color</p>
+    </div>
+</div>
+</div>
+
+</div>
+</div>
+</main>
+        <footer  class ="text-center">
+            <p>Copyright &copy; MyCart.com</p> 
+            
+        
+        
+        </footer>
     
 </body>
 </html>
+
